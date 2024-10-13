@@ -1,0 +1,55 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F7EED0;
+    padding: 0 20px 20px 20px;
+    border: 5px solid darkred;
+}
+
+html{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #E6C9AB;
+}
+
+/* These are element selectors */
+/* Also known as tag selectors (sometimes) */
+h1{
+    margin: 0;
+    padding: 20px 0;
+    font-size: #00539f;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+}
+
+h4,
+li,
+p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Id selector */
+/* Note: Id selector must be unique */
+#page-heading{
+    color:darkorange;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+/* Class selector */
+/* Note: Class selectors of multiple elements can be same  */
+.editor-note{
+    color:slategray;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.cute-cats{
+    margin-top: 50px;
+}
