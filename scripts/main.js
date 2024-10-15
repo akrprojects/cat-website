@@ -12,9 +12,9 @@ if (iceCream === "chocolate"){
 
 // Event
 
-// document.querySelector("html").addEventListener("click" , () => {
-//     alert("Ouch! Stop poking me!");
-// });
+document.querySelector("html").addEventListener("click" , () => {
+    alert("Ouch! Stop poking me!");
+});
 
 const myImage = document.querySelector("img");
 
